@@ -4,12 +4,12 @@
 <html>
 <head>
     <link href="css/app.css" rel="stylesheet" type="text/css">
-    <title>Spring Security Example - ProgrammingFree</title>
+    <title>:(</title>
 </head>
 <body>
 <h3>You do not have permission to access this page!</h3>
     <form action="/logout" method="post">
-        <input type="submit" class="button red big" value="LogIn" /> <input
+        <input type="submit" class="button red big" value="Log Out and try again" /> <input
             type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
     </form>
 </body>
